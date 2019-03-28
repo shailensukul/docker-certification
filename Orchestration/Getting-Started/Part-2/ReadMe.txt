@@ -1,3 +1,5 @@
+Url : https://docs.docker.com/get-started/part2/
+
 # build the image
 docker build --tag=getting-started .
 
