@@ -26,7 +26,7 @@ docker container stop 1fa4ab2cf395
  docker login
 
  # tag the image
- docker tag image shailensukul/getting-started:part2
+ docker tag getting-started shailensukul/getting-started:part2
 
  # see your tagged image
  docker image ls
