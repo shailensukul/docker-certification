@@ -1,5 +1,10 @@
 Link: https://docs.docker.com/get-started/part4/
 
+
+Tip: If commands do not respond, increase the timeout:
+
+docker-machine ls -t 20
+
 In part 4, you deploy this application onto a cluster, running it on multiple machines. 
 Multi-container, multi-machine applications are made possible by joining multiple
 machines into a “Dockerized” cluster called a swarm.
@@ -70,7 +75,9 @@ To add a worker to this swarm, run the following command:
   <myvm ip>:<port>
 
 Example: 
- docker swarm join --token SWMTKN-1-30hdl4m0s6c0lqggli4gvcm8pmchmjwsnqzd2rkf4i15s01v9c-8ntkpcp24r17ug4qhegvq83rp 192.168.86.26:2377
+ docker-machine --native-ssh ssh myvm2 "docker swarm join --token \
+ SWMTKN-1-30hdl4m0s6c0lqggli4gvcm8pmchmjwsnqzd2rkf4i15s01v9c-8ntkpcp24r17ug4qhegvq83rp \
+ 192.168.86.25:2377"
 
 To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
 
@@ -83,9 +90,6 @@ Do not use this port or you may experience errors.
 
 [Having trouble using SSH? Try the --native-ssh flag]
 docker-machine --native-ssh ssh myvm1
-
-docker-machine --native-ssh ssh myvm2 "docker swarm join --token SWMTKN-1-30hdl4m0s6c0lqggli4gvcm8pmchmjwsnqzd2rkf4i15s01v9c-8ntkpcp24r17ug4qhegvq83rp 192.168.86.25:2377"
-
 
 [View the nodes in this swarm]:
 
@@ -139,7 +143,15 @@ OR you can execute command by command:
 
 docker-machine ssh <machine> "<command>"
 
-[Copy files]
-On Mac and Linux, you can use docker-machine scp <file> <machine>:~ 
-to copy files across machines, 
+[Connecting to VMs with docker-machine env and docker-machine ssh]
+To set your shell to talk to a different machine like myvm2, simply re-run [docker-machine env] in 
+the same or a different shell, then run the given command to point to myvm2. 
+This is always specific to the current shell. If you change to an unconfigured shell or open a 
+new one, you need to re-run the commands. Use [docker-machine ls] to list machines, see what state 
+they are in, get IP addresses, and find out which one, if any,
+
+Alternatively, you can wrap Docker commands in the form of [docker-machine ssh <machine> "<command>"],
+which logs directly into the VM but doesn’t give you immediate access to files on your local host.
+
+On Mac and Linux, you can use [docker-machine scp <file> <machine>:~] to copy files across machines, 
 but Windows users need a Linux terminal emulator like Git Bash for this to work.
