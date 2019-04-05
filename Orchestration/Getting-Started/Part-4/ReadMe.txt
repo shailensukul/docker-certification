@@ -155,3 +155,9 @@ which logs directly into the VM but doesn’t give you immediate access to files
 
 On Mac and Linux, you can use [docker-machine scp <file> <machine>:~] to copy files across machines, 
 but Windows users need a Linux terminal emulator like Git Bash for this to work.
+
+[Cleanup]
+Tear down the stack:
+
+docker stack rm getstartedlab
+

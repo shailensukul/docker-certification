@@ -6,9 +6,9 @@ docker build --tag=getting-started .
 # list the image
 docker image ls
 
-#run he image
+#run the image
 docker run -p 4000:80 getting-started
-
+store
 # browse to the url
 curl http://localhost:4000
 
