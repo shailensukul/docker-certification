@@ -1,10 +1,15 @@
 # Docker Certified Associate
 
- About     |
- ------ |
-  [Official Link](https://github.com/DevOps-Academy-Org/dca-prep-guide) |
-  [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) |
+![Docker Certified Associate](/Images/docker-certified-associate.jpg)
 
+
+My notes while preparing for the Docker Certified Associate exam.
+
+
+ Links     |
+ ------ |
+  [Official Prep Guide](https://github.com/DevOps-Academy-Org/dca-prep-guide) |
+  [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) |
 
 ## Sections
 
