@@ -11,6 +11,7 @@ My notes while preparing for the Docker Certified Associate exam.
   [Official Pdf Guide](/dca-study-guide-v1.0.1.pdf) |
   [Official Prep Guide](https://github.com/DevOps-Academy-Org/dca-prep-guide) |
   [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) |
+  [Another study guide](https://github.com/suryaval/docker-certified-associate)
 
 ## Sections
 

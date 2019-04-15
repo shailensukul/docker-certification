@@ -8,7 +8,7 @@
 <summary>Content​ ​may​ ​include​ ​the​ ​following: </summary>
 
 + Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster,​ ​with​ ​managers​ ​and​ ​worker​ ​nodes 
-+ State​ ​the​ ​differences​ ​between​ ​running​ ​a​ ​container​ ​vs​ ​running​ ​a​ ​service 
++ [State​ ​the​ ​differences​ ​between​ ​running​ ​a​ ​container​ ​vs​ ​running​ ​a​ ​service](./container-vs-service.md))
 + Demonstrate​ ​steps​ ​to​ ​lock​ ​a​ ​swarm​ ​cluster 
 + Extend​ ​the​ ​instructions​ ​to​ ​run​ ​individual​ ​containers​ ​into​ ​running​ ​services​ ​under​ ​swarm 
 + Interpret​ ​the​ ​output​ ​of​ ​"docker​ ​inspect"​ ​commands 
