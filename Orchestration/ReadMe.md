@@ -64,10 +64,14 @@ $ docker swarm join --token <Manager token> 192.168.86.25:2377
 
 # Make a dockerized node the worker
 
-$ docker swarm join --token <Worker token> 192.168.0.8:2377
+$ docker swarm join --token <Worker token> 192.168.86.25:2377
 
 # where ip is manager ip
 
 $ docker node ls
 
 ```
+
+### State the differences between running a container versus running a service
+
+![Services vs Containers](/Images/services-diagram.png)
