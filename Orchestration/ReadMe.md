@@ -140,8 +140,13 @@ $ docker swarm join --token <Worker token> 192.168.86.25:2377
 docker stack deploy -c docker-compose.yml getstartedlab
 ```
 
+### Take down the app
+```
+docker stack rm part3
 ```
 
-### State the differences between running a container versus running a service
+### Take down the swarm
+```
+docker swarm leave --force
+```
 
-![Services vs Containers](/Images/services-diagram.png)
