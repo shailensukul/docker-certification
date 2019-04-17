@@ -7,7 +7,7 @@
 <details>
 <summary>Content​ ​may​ ​include​ ​the​ ​following: </summary>
 
-+ [Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster,​ ​with​ ​managers​ ​and​ ​worker​ ​nodes](#complete​-​the​-​setup​-of​-​a​-​swarm​-​mode​-​cluster-​with​-​managers​-​and​-​worker​-​nodes) 
++ [Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster,​ ​with​ ​managers​ ​and​ ​worker​ ​nodes](#setup) 
 + [State​ ​the​ ​differences​ ​between​ ​running​ ​a​ ​container​ ​vs​ ​running​ ​a​ ​service](./container-vs-service.md))
 + Demonstrate​ ​steps​ ​to​ ​lock​ ​a​ ​swarm​ ​cluster 
 + Extend​ ​the​ ​instructions​ ​to​ ​run​ ​individual​ ​containers​ ​into​ ​running​ ​services​ ​under​ ​swarm 
@@ -25,7 +25,7 @@
 + Demonstrate​ ​the​ ​usage​ ​of​ ​templates​ ​with​ ​"docker​ ​service​ ​create" 
 </details>
 
-### Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster ​with​ ​managers​ ​and​ ​worker​ ​nodes 
+### <a name="setup"></a>Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster ​with​ ​managers​ ​and​ ​worker​ ​nodes 
 
 #### Prep: Create VMs
 
