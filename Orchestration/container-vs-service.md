@@ -11,6 +11,11 @@ overall progress: 1 out of 1 tasks
 verify: Service converged
 ```
 
+## List the services
+```
+docker service ls
+```
+
 ## Running a container
 ```
 $ docker run -td --name redis-container redis:3.0.6
