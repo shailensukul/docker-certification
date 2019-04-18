@@ -49,7 +49,7 @@ docker-machine ls
 
 Set environment variables to dictate that docker should run a command against a particular machine.
 
-# enable ssh shell for machine
+##### enable ssh shell for machine
 ```
 docker-machine env myvm1
 ```
