@@ -50,13 +50,16 @@ docker-machine ls
 Set environment variables to dictate that docker should run a command against a particular machine.
 
 # enable ssh shell for machine
+```
 docker-machine env myvm1
-
+```
 or 
 
+```
 docker-machine ssh myvm1 <command>
 
 ```
+
 Run docker-machine ls to verify that myvm1 is the active machine as indicated by the asterisk next to it:
 
 ```
