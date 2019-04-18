@@ -148,7 +148,7 @@ docker stack deploy -c docker-compose.yml getstartedlab
 
 ### Take down the app
 ```
-docker stack rm part3
+docker stack rm getstartedlab
 ```
 
 ### Take down the swarm
