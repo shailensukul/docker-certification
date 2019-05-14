@@ -159,7 +159,7 @@ az webapp create --resource-group <myresourcegroup> --plan <myappserviceplan> --
 az webapp config storage-account add -g <myresourcegroup> -n <myappservicename> --custom-id contentvolume --storage-type AzureFiles --account-name <storageaccountname> --share-name contentfiles --access-key <accesskey> --mount-path /var/lib/ghost/content_files
 ```
 
-**Pass in the ENVIRONMENT variable to the Docker container via App Settings**
+**Pass in the ENVIRONMENT variables to the Docker container via App Settings**
 
 ```
 az webapp config appsettings set --resource-group <myresourcegroup> --name <appservicename> --settings paths__contentPath=/var/lib/ghost/content_files/ url=https://<mycustomdomain>.com NODE_ENV=production privacy_useUpdateCheck=false database__client=mysql database__connection__host=<dbserver> database__connection__port=3306 database__connection__user=<dbuser> database__connection__password=<dbpassword> database__connection__database=<db> database__connection__ssl__rejectunauthorized=true database__connection__ssl=true
