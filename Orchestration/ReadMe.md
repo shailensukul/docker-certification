@@ -45,15 +45,21 @@ docker-machine create -d hyperv --hyperv-virtual-switch "myswitch" myvm2
 
 # show vms
 docker-machine ls
+```
 
-# enable ssh shell for machine
+Set environment variables to dictate that docker should run a command against a particular machine.
+
+##### enable ssh shell for machine
+```
 docker-machine env myvm1
-
+```
 or 
 
+```
 docker-machine ssh myvm1 <command>
 
 ```
+
 Run docker-machine ls to verify that myvm1 is the active machine as indicated by the asterisk next to it:
 
 ```
@@ -65,31 +71,9 @@ docker-machine ls
 | 2377 | the swarm management port |
 | 2376 | the Docker daemon port |
 
-#### Build and publish Docker image
-
-```
-# login to Docker
- docker login
-
-# build the image
-docker build --tag=getting-started ./Getting-Started/Part-2
-
- # tag the image
- docker tag getting-started shailensukul/getting-started:part2
-
- # see your tagged image
- docker image ls
-
-# publish the image
-docker push shailensukul/getting-started:part2
-
-# pull and run image from repository
-docker run -p 4000:80 shailensukul/getting-started:part2
-```
-
 #### Add Workers and Managers to a Swarm
 
-Note: run this commands via SSHing into the machine:
+##### SSH into a machine
 
 ```
 docker-machine env <machine>
@@ -101,7 +85,8 @@ Or
 docker-machine ssh <machine> <command>
 ```
 
-Run this on the manager node/vm
+##### Run this on the manager node/vm
+
 ```
 $ docker swarm init --advertise-addr=192.168.86.25 
 ```
@@ -142,7 +127,7 @@ docker stack deploy -c docker-compose.yml getstartedlab
 
 ### Take down the app
 ```
-docker stack rm part3
+docker stack rm getstartedlab
 ```
 
 ### Take down the swarm
@@ -150,3 +135,24 @@ docker stack rm part3
 docker swarm leave --force
 ```
 
+#### Build and publish Docker image
+
+```
+# login to Docker
+ docker login
+
+# build the image
+docker build --tag=getting-started ./Getting-Started/Part-2
+
+ # tag the image
+ docker tag getting-started shailensukul/getting-started:part2
+
+ # see your tagged image
+ docker image ls
+
+# publish the image
+docker push shailensukul/getting-started:part2
+
+# pull and run image from repository
+docker run -p 4000:80 shailensukul/getting-started:part2
+```
