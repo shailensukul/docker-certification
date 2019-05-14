@@ -36,7 +36,7 @@ az storage account create --location "Australia Southeast" --name <storageaccoun
 ```
 Note the access key
 
-** Create a file share **
+**Create a file share**
 ```
 az storage share create --name contentfiles --account-name <storageaccountname> --account-key <accesskey>
 ```
