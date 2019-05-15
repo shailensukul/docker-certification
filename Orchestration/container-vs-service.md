@@ -2,7 +2,15 @@
 
 [Back](./ReadMe.md)
 
-[Reference](https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/#services-tasks-and-containers)
+
+# Docker Documentation
+
+| Command | Description | Example |
+| --- | --- | --- |
+| [docker run](https://docs.docker.com/engine/reference/commandline/run/#parent-command) |Run a command in a new container  | `docker run [OPTIONS] IMAGE [COMMAND] ARG...] `
+| [docker services](https://docs.docker.com/engine/swarm/how-swarm-mode-works/services) | To deploy an application image when Docker Engine is in swarm mode, you create a service. Frequently a service is the image for a microservice within the context of some larger application. Examples of services might include an HTTP server, a database, or any other type of executable program that you wish to run in a distributed environment. | |
+| | When you create a service, you specify which container image to use and which commands to execute inside running containers. You also define options for the service including: | |
+| | the port where the swarm makes the service available outside the swarm an overlay network for the service to connect to other services in the swarm CPU and memory limits and reservations a rolling update policy on the number of replicas of the image to run in the swarm | |
 
 ## Services, tasks, and containers
 
@@ -47,7 +55,8 @@ Digest: sha256:6a692a76c2081888b589e26e6ec835743119fe453d67ecf03df7de5b73d69842
 Status: Downloaded newer image for redis:3.0.6
 1dddbe5cc61bfe62df0b4eb73c5fb735b773ffefb477908cfe35bf71f58ef8af
 [node1] (local) root@192.168.0.8 ~
-
+```
+```
 $ docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
 1dddbe5cc61b        redis:3.0.6         "/entrypoint.sh redi…"   8 seconds ago       Up 7 seconds        6379/tcp            redis-container
