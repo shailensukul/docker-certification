@@ -13,9 +13,7 @@ The tasks run independently of each other on nodes in the swarm.
 For example, imagine you want to load balance between three instances of an HTTP listener. 
 The diagram below shows an HTTP listener service with three replicas. Each of the three instances of the listener is a task in the swarm.
 
-![Services][services
-]
-[services] ./services-diagram.png
+![Services](./services-diagram.png)
 
 ## Running a service
 ```
