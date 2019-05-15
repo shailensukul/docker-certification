@@ -5,7 +5,7 @@
 25% of exam.
 
 <details>
-<summary>Content​ ​may​ ​include​ ​the​ ​following: </summary>
+<summary>Click to expand content summary: </summary>
 
 + [Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster,​ ​with​ ​managers​ ​and​ ​worker​ ​nodes](#setup) 
 + [State​ ​the​ ​differences​ ​between​ ​running​ ​a​ ​container​ ​vs​ ​running​ ​a​ ​service](./container-vs-service.md))
