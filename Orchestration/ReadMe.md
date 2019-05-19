@@ -9,7 +9,7 @@
 
 + [Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster,​ ​with​ ​managers​ ​and​ ​worker​ ​nodes](#setup) 
 + [State​ ​the​ ​differences​ ​between​ ​running​ ​a​ ​container​ ​vs​ ​running​ ​a​ ​service](./container-vs-service.md))
-+ Demonstrate​ ​steps​ ​to​ ​lock​ ​a​ ​swarm​ ​cluster 
++ [Demonstrate​ ​steps​ ​to​ ​lock​ ​a​ ​swarm​ ​cluster](./lock-swarm-cluster.md) 
 + Extend​ ​the​ ​instructions​ ​to​ ​run​ ​individual​ ​containers​ ​into​ ​running​ ​services​ ​under​ ​swarm 
 + Interpret​ ​the​ ​output​ ​of​ ​"docker​ ​inspect"​ ​commands 
 + Convert​ ​an​ ​application​ ​deployment​ ​into​ ​a​ ​stack​ ​file​ ​using​ ​a​ ​YAML​ ​compose​ ​file​ ​with "docker​ ​stack​ ​deploy" 
