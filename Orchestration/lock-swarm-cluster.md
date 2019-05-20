@@ -2,7 +2,7 @@
 
 [Back](./ReadMe.md)
 
-##[Lock your swarm to protect its encryption key (Offical Doc)](https://docs.docker.com/engine/swarm/swarm_manager_locking/)
+## [Lock your swarm to protect its encryption key (Offical Doc)](https://docs.docker.com/engine/swarm/swarm_manager_locking/)
 
 n Docker 1.13 and higher, the Raft logs used by swarm managers are encrypted on disk by default. This at-rest encryption protects your service’s configuration and data from attackers who gain access to the encrypted Raft logs. One of the reasons this feature was introduced was in support of the new Docker secrets feature.
 
