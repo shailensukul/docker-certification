@@ -4,7 +4,7 @@
 
 <details>
   <summary>
-    Click to expand
+    Click to expand content summary:
   </summary>
   
 + Demonstrate​​ the​ ​ability​​ to​ ​upgrade ​​the ​​Docker ​​engine
