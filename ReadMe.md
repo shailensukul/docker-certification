@@ -1,10 +1,3 @@
-# Docker Certified Associate
-
-![Docker Certified Associate](/Images/docker-certified-associate.jpg)
-
-
-My notes while preparing for the Docker Certified Associate exam.
-
 ## Sections
 
 | Section | 
@@ -16,6 +9,13 @@ My notes while preparing for the Docker Certified Associate exam.
 | [Security](/Security/ReadMe.md) |
 | [Storage and Volumes](/Storage-Volumes/ReadMe.md) |
 
+
+# Docker Certified Associate
+
+![Docker Certified Associate](/Images/docker-certified-associate.jpg)
+
+
+My notes while preparing for the Docker Certified Associate exam.
 
  Links     |
  ------ |
