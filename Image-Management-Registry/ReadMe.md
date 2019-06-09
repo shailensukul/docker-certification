@@ -7,9 +7,9 @@
     Click to expand content summary:
     </summary>
   
-+ Describe ​​Dockerfile ​​options​​ [add,​​copy,​​volumes,​​expose,​​entrypoint,​​etc)
++ Describe ​​Dockerfile ​​options​​ [add, copy, volumes, expose, entrypoint, etc)
 + Show​ ​the ​​main ​​parts ​​of ​​a ​​Dockerfile
-+ Give​ ​examples​ ​on ​​how ​​to ​​create ​​an ​​efficient​​ image ​​via ​​a​​Dockerfile
++ Give​ ​examples​ ​on ​​how ​​to ​​create an efficient image via a Dockerfile
 + Use ​​CLI ​​commands ​​such ​​as ​​list, ​​delete, ​​prune,​ ​rmi,​​ etc ​​to​​manage ​​images
 + Inspect ​​images ​​and ​​report​​ specific​​ attributes ​​using ​​filter​​and ​​format
 + Demonstrate​​ tagging ​​an ​​image
