@@ -8,7 +8,7 @@
     Click to expand content summary:
   </summary>
   
- + Create​​a ​​Docker​​ bridge ​​network ​​for ​​a ​​developer​​ to ​​use ​​for​ ​their ​​containers
+ + Create​​ a ​​Docker​​ bridge ​​network ​​for ​​a ​​developer​​ to ​​use ​​for​ ​their ​​containers
 + Troubleshoot​​ container​ ​and ​​engine​ ​logs ​​to ​​understand ​​a ​​connectivity ​​issue​​ between containers
 + Publish ​​a ​​port​​ so ​​that ​​an ​​application ​​is​ ​accessible​​ externally
 + Identify ​​which ​​IP​​ and​​ port​​ a ​​container ​​is ​​externally ​​accessible​​ on
