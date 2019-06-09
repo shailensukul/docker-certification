@@ -1,8 +1,6 @@
-# Orchestration
+# Orchestration (25%)
 
 [Back](../ReadMe.md)
-
-25% of exam.
 
 <details>
 <summary>Click to expand content summary: </summary>
