@@ -55,9 +55,9 @@ The default logging driver is ```json-file```
 
 ## Configure the logging driver for a container
 
-When you start a container, you can configure it to use a different logging driver than the Docker daemon’s default, using the ```--log-driver``` flag. 
+When you start a container, you can configure it to use a different logging driver than the Docker daemon’s default, using the `--log-driver` flag. 
 
-If the logging driver has configurable options, you can set them using one or more instances of the ```--log-opt <NAME>=<VALUE>``` flag.
+If the logging driver has configurable options, you can set them using one or more instances of the `--log-opt <NAME>=<VALUE>` flag.
  
 Example:
 
@@ -72,3 +72,38 @@ $ docker inspect -f '{{.HostConfig.LogConfig.Type}}' <CONTAINER>
 
 json-file
 ```
+
+## Configure the delivery mode of log messages from container to log driver
+
+Docker provides two modes for delivering messages from the container to the log driver:
+
+* (default) direct, blocking delivery from container to driver
+* non-blocking delivery that stores log messages in an intermediate per-container ring buffer for consumption by driver.
+The non-blocking message delivery mode prevents applications from blocking due to logging back pressure.
+
+| Log options | Description |
+| --- | --- |
+| mode | The mode log option controls whether to use the blocking (default) or non-blocking message delivery. |
+| max-buffer-size | The max-buffer-size log option controls the size of the ring buffer used for intermediate message storage when mode is set to non-blocking. max-buffer-size defaults to 1 megabyte.|
+
+
+Example: 
+```
+$ docker run -it --log-opt mode=non-blocking --log-opt max-buffer-size=4m alpine ping 127.0.0.1
+```
+## Supported Logging Drivers
+
+| Driver | Description |
+| --- | --- |
+| `none` | No logs are available for the container and `docker logs` does not return any output. |
+| [`local`](https://docs.docker.com/config/containers/logging/local/) | Logs are stored in a custom format designed for minimal overhead. |
+| [`json-file`](https://docs.docker.com/config/containers/logging/json-file/) | The logs are formatted as JSON. The default logging driver for Docker. |
+| [`syslog`](https://docs.docker.com/config/containers/logging/syslog/) | Writes logging messages to the `syslog` facility. The `syslog` daemon must be running on the host machine. |
+| [`journald`](https://docs.docker.com/config/containers/logging/journald/) | Writes log messages to `journald`. The `journald` daemon must be running on the host machine. |
+| [`gelf`](https://docs.docker.com/config/containers/logging/gelf/) | Writes log messages to a Graylog Extended Log Format (GELF) endpoint such as Graylog or Logstash. |
+| [`fluentd`](https://docs.docker.com/config/containers/logging/fluentd/) | Writes log messages to `fluentd` (forward input). The `fluentd` daemon must be running on the host machine. |
+| [`awslogs`](https://docs.docker.com/config/containers/logging/awslogs/) | Writes log messages to Amazon CloudWatch Logs. |
+| [`splunk`](https://docs.docker.com/config/containers/logging/splunk/) | Writes log messages to `splunk` using the HTTP Event Collector. |
+| [`etwlogs`](https://docs.docker.com/config/containers/logging/etwlogs/) | Writes log messages as Event Tracing for Windows (ETW) events. Only available on Windows platforms. |
+| [`gcplogs`](https://docs.docker.com/config/containers/logging/gcplogs/) | Writes log messages to Google Cloud Platform (GCP) Logging. |
+| [`logentries`](https://docs.docker.com/config/containers/logging/logentries/) | Writes log messages to Rapid7 Logentries. |
