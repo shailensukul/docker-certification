@@ -8,5 +8,5 @@ add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bi
 apt-get update && sudo apt-get -y upgrade
 apt-cache policy docker-ce
 apt install -y docker-ce
-systemctl status docker
+systemctl status docker --no-pager
 docker info
