@@ -20,3 +20,8 @@
 + Complete​​ configuration ​​of ​​backups ​​for ​​UCP ​​and ​​DTR
 + Configure​​ the​ ​Docker​​ daemon​​ to​​ start​​ on​ ​boot
  </details>
+
+## Install Docker on Digital Ocean droplet
+```
+wget -O - https://raw.githubusercontent.com/shailensukul/docker-certification/master/Scripts/install-docker.sh | bash
+```

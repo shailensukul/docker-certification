@@ -23,7 +23,3 @@
 + Demonstrate​ ​the​ ​usage​ ​of​ ​templates​ ​with​ ​"docker​ ​service​ ​create" 
 </details>
 
-## Install Docker on Digital Ocean droplet
-```
-wget -O - https://raw.githubusercontent.com/shailensukul/docker-certification/master/Scripts/install-docker.sh | bash
-```
