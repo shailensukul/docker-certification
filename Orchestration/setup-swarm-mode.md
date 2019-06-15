@@ -1,3 +1,5 @@
+[Back](./ReadMe.md)
+
 ### <a name="setup"></a>Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster ​with​ ​managers​ ​and​ ​worker​ ​nodes 
 
 #### Prep: Create VMs
@@ -91,8 +93,6 @@ $ docker swarm join --token <Worker token> 192.168.86.25:2377
 where ip is manager ip
 
 $ docker swarm join --token <Worker token> 192.168.86.25:2377
-
-[Back](./ReadMe.md)
 
 ## Setup Swarm Mode
 
