@@ -23,6 +23,11 @@
 + Demonstrate​ ​the​ ​usage​ ​of​ ​templates​ ​with​ ​"docker​ ​service​ ​create" 
 </details>
 
+## Install Docker on Digital Ocean droplet
+```
+wget -O - https://raw.githubusercontent.com/shailensukul/docker-certification/master/Scripts/install-docker.sh | bash
+```
+
 ### <a name="setup"></a>Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster ​with​ ​managers​ ​and​ ​worker​ ​nodes 
 
 #### Prep: Create VMs
