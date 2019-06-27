@@ -16,7 +16,7 @@
 + Outline ​​the​​ sizing​​ requirements ​​prior ​​to ​​installation
 + Understand ​​namespaces,​ ​cgroups,​ ​and​ ​configuration ​​of ​​certificates
 + Use​​ certificate-based ​​client-server​ ​authentication​​ to​ ​ensure​​ a ​​Docker​​ daemon​​ has​​ the rights​ ​to ​​access ​​images​​ on ​​a ​​registry
-+ Consistently​​ repeat​​ steps ​​to ​​deploy ​​Docker ​​​​engine, ​​UCP, ​​and ​​DTR ​​on ​​AWS ​​and ​​on premises ​​in ​​an​ ​HA ​​config
++ Consistently​​ repeat​​ steps ​​to ​​deploy ​​Docker ​​​​engine, ​​[UCP](./ucp.md), ​​and ​​DTR ​​on ​​AWS ​​and ​​on premises ​​in ​​an​ ​HA ​​config
 + Complete​​ configuration ​​of ​​backups ​​for ​​UCP ​​and ​​DTR
 + Configure​​ the​ ​Docker​​ daemon​​ to​​ start​​ on​ ​boot
  </details>
