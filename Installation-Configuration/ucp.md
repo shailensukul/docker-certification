@@ -34,7 +34,9 @@ docker container run --rm -it --name ucp \
 ## Installation
 `
 # Pull the latest version of UCP
+```
 docker image pull docker/ucp:3.1.7
+```
 
 # Install UCP
 
