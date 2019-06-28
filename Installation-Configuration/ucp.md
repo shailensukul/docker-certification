@@ -43,11 +43,14 @@ docker image pull docker/ucp:3.1.7
 1. Use ssh to log in to the host where you want to install UCP.
 
 2. Run the following:
-```
-# Pull the latest version of UCP
-docker image pull docker/ucp:3.1.7
 
-# Install UCP
+#### Pull the latest version of UCP
+```
+docker image pull docker/ucp:3.1.7
+```
+
+#### Install UCP
+```
 docker container run --rm -it --name ucp \
   -v /var/run/docker.sock:/var/run/docker.sock \
   docker/ucp:3.1.7 install \
