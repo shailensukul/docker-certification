@@ -29,3 +29,13 @@ docker run -it --rm docker/dtr install \
 ```
 
 You can run that snippet on any node where Docker is installed. 
+Confirm that DTR is installed via UCP.
+![Docker Trusted Registry Installed](./dtr-confirm.png)
+
+You can also browse to the DTR web interface:
+```
+http://[swarm-01-ip]:81
+```
+
+![DTR Web Interface](./dtr-web-interface.png)
+
