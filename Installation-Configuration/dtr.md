@@ -34,7 +34,7 @@ Confirm that DTR is installed via UCP.
 
 You can also browse to the DTR web interface:
 ```
-http://[swarm-01-ip]:81
+https://[swarm-01-ip]:444
 ```
 
 ![DTR Web Interface](./dtr-web-interface.png)
