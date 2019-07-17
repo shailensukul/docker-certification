@@ -40,6 +40,7 @@ ssh root@[droplet ip]
 ```
 adduser dockeradmin
 usermod -aG sudo dockeradmin
+logout
 ```
 * Now, you can SSH as the docker admin user
 ```
@@ -50,11 +51,12 @@ ssh dockeradmin@206.189.82.62
  wget -O - https://raw.githubusercontent.com/shailensukul/docker-certification/master/Scripts/ install-docker.sh | bash
 ```
 
-
 # Terminal Recording
 Install with:
 ```
-brew install asciinema
+sudo apt-add-repository ppa:zanchey/asciinema
+sudo apt-get update
+sudo apt-get install asciinema
 ```
 
 Record:
@@ -66,3 +68,7 @@ Stop recording:
 ```
 To finish hit Ctrl-D or type exit.
 ```
+
+
+# Test
+[![asciicast](https://asciinema.org/a/Rzeg0ZfqBnX4S6Jtt24HwyRdS.svg)](https://asciinema.org/a/Rzeg0ZfqBnX4S6Jtt24HwyRdS)
