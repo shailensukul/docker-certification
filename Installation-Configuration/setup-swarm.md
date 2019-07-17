@@ -13,6 +13,7 @@ Swarms are a cluster of nodes that consist of the following components:
 
 [Back](./ReadMe.md)
 
+[![asciicast](https://asciinema.org/a/bYVuETdpWzx0qhGStKo0oWsNz.svg)](https://asciinema.org/a/bYVuETdpWzx0qhGStKo0oWsNz)
 
 ## On the manager node
 
