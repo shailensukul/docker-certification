@@ -26,3 +26,19 @@ My notes while preparing for the Docker Certified Associate exam.
   [Another study guide](https://github.com/suryaval/docker-certified-associate) |
   [Terminal Recorder](https://asciinema.org/) |
   [Paste to Markdown](https://euangoddard.github.io/clipboard2markdown/) |
+  
+  # Terminal Record
+Install with:
+```
+brew install asciinema
+```
+
+Record:
+```
+asciinema rec
+```
+
+Stop recording:
+```
+To finish hit Ctrl-D or type exit.
+```
