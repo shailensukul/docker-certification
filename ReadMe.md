@@ -51,7 +51,7 @@ ssh dockeradmin@206.189.82.62
  wget -O - https://raw.githubusercontent.com/shailensukul/docker-certification/master/Scripts/install-docker.sh | bash
 ```
 
-[![asciicast](https://asciinema.org/a/257779.svg)](https://asciinema.org/a/257779)
+[![asciicast](https://asciinema.org/a/r5lXhDCESh9twcmktgVDoYdp9.svg)](https://asciinema.org/a/r5lXhDCESh9twcmktgVDoYdp9)
 
 # Terminal Recording
 Install with:
