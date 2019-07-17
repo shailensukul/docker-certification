@@ -48,8 +48,10 @@ ssh dockeradmin@206.189.82.62
 ```
 * Install docker by running this script
 ```
- wget -O - https://raw.githubusercontent.com/shailensukul/docker-certification/master/Scripts/ install-docker.sh | bash
+ wget -O - https://raw.githubusercontent.com/shailensukul/docker-certification/master/Scripts/install-docker.sh | bash
 ```
+
+[![asciicast](https://asciinema.org/a/257779.svg)](https://asciinema.org/a/257779)
 
 # Terminal Recording
 Install with:
@@ -68,7 +70,3 @@ Stop recording:
 ```
 To finish hit Ctrl-D or type exit.
 ```
-
-
-# Test
-[![asciicast](https://asciinema.org/a/Rzeg0ZfqBnX4S6Jtt24HwyRdS.svg)](https://asciinema.org/a/Rzeg0ZfqBnX4S6Jtt24HwyRdS)
