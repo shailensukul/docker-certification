@@ -27,7 +27,31 @@ My notes while preparing for the Docker Certified Associate exam.
   [Terminal Recorder](https://asciinema.org/) |
   [Paste to Markdown](https://euangoddard.github.io/clipboard2markdown/) |
   
-  # Terminal Record
+# Digital Ocean
+
+* Sign up for a free trial account at (Digital Ocean)[https://cloud.digitalocean.com]
+* Create a Ubuntu droplet
+* You will get an email with the IP address of the droplet and the root user & temporary password.
+SSH into the droplet and change the root user password when prompted
+```
+ssh root@[droplet ip]
+```
+* Create another user for docker and give it sudo privileges
+```
+adduser dockeradmin
+usermod -aG sudo dockeradmin
+```
+* Now, you can SSH as the docker admin user
+```
+ssh dockeradmin@206.189.82.62
+```
+* Install docker by running this script
+```
+ wget -O - https://raw.githubusercontent.com/shailensukul/docker-certification/master/Scripts/ install-docker.sh | bash
+```
+
+
+# Terminal Recording
 Install with:
 ```
 brew install asciinema
