@@ -23,5 +23,9 @@ cd 02
 Build .NetCore 3
 
 ```
-docker build -f DockerFile01 .
+docker build -t 02 -f DockerFile0 .
+
+docker run -d -p 8080:80 --name myapp 02
+
+docker container rm myapp
 ```
