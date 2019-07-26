@@ -27,6 +27,12 @@ My notes while preparing for the Docker Certified Associate exam.
   [Terminal Recorder](https://asciinema.org/) |
   [Paste to Markdown](https://euangoddard.github.io/clipboard2markdown/) |
   
+# Basics
+
+An image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.
+
+A container is a runtime instance of an image—what the image becomes in memory when actually executed. It runs completely isolated from the host environment by default, only accessing host files and ports if configured to do so.
+
 # Digital Ocean
 
 * Sign up for a free trial account at (Digital Ocean)[https://cloud.digitalocean.com]
