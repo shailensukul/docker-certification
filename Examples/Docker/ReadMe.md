@@ -9,6 +9,7 @@
 
 ```
 docker build -f DockerFile01 .
+
 ```
 
 ```
@@ -27,6 +28,8 @@ cd 02
 ```
 docker build -t shailensukul/aspnetcore:1.0.0 -f DockerFile .
 
+docker build -t shailensukul/aspnetcore:arm64 -f DockerFile .
+
 docker image ls
 
 docker run -d -p 8080:80 --name myapp shailensukul/aspnetcore:1.0.0
@@ -41,8 +44,19 @@ docker container rm myapp
 docker push shailensukul/aspnetcore:1.0.0
 ```
 
-## Run this image on a Pi (AMD64 image)
+## Run this image on a Pi (ARM64 image)
 
 ```
-docker run -d -p 80:80 --name myapp shailensukul/aspnetcore:amd64
+docker run -d -p 80:80 --name myapp shailensukul/aspnetcore:arm64
+```
+
+#### ARM64
+
+Use the DockerARM64 file
+
+From an ARM64 machine:
+
+Check the Pi version
+```
+cat /etc/os-release
 ```

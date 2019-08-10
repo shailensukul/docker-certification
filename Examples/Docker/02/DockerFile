@@ -1,14 +1,18 @@
 # https://github.com/aspnet/aspnet-docker/issues/401
 # The second line in FROM is for AMD64 architecture
 # Source: https://github.com/dotnet/dotnet-docker/blob/master/3.0/aspnet/alpine3.9/amd64/Dockerfile
+
+#https://hub.docker.com/_/microsoft-dotnet-core-aspnet/
 #FROM mcr.microsoft.com/dotnet/core/aspnet:3.0-stretch-slim AS base
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.0-disco-arm64v8 AS base
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.0-buster-slim-arm64v8 AS base
+
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
+# https://hub.docker.com/_/microsoft-dotnet-core-sdk/
 #FROM mcr.microsoft.com/dotnet/core/sdk:3.0-stretch AS build
-FROM mcr.microsoft.com/dotnet/core/sdk:3.0-disco-arm64v8 AS build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0-buster-arm64v8 AS build
 WORKDIR /src
 # Copy code files and restore as distinct layers
 COPY [".", "."]
