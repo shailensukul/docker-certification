@@ -13,14 +13,15 @@ docker build -f DockerFile01 .
 ```
 docker run ubuntu
 ```
+
 ## 02
 
 ```
-
 dotnet new webApp -o 02 --no-https
 cd 02
+```
 
-Build .NetCore 3
+### Build .NetCore 3
 
 ```
 docker build -t 02 -f DockerFile0 .
