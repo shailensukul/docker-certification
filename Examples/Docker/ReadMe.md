@@ -60,3 +60,30 @@ Check the Pi version
 ```
 cat /etc/os-release
 ```
+
+## Pi
+
+### Install VS Code
+```
+wget https://packagecloud.io/headmelted/codebuilds/gpgkey -O - | sudo apt-key add -
+
+```
+
+```
+curl -L https://code.headmelted.com/installers/apt.sh | sudo bash
+
+```
+
+### Remote Desktop
+```
+sudo raspi-config
+```
+
+Choose Interface Options, enable VNC
+
+Reboot Pi
+```
+sudo reboot
+```
+
+Use [IP Scanner to find your IP](http://www.advanced-ip-scanner.com/index.php)
