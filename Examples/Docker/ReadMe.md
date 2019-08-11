@@ -28,7 +28,7 @@ cd 02
 ```
 docker build -t shailensukul/aspnetcore:1.0.0 -f DockerFile .
 
-docker build -t shailensukul/aspnetcore:arm64 -f DockerFile .
+docker build -t shailensukul/aspnetcore:arm64 -f DockerFileARM64 .
 
 docker image ls
 
