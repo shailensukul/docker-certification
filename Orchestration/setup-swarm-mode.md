@@ -60,6 +60,19 @@ Or
 docker-machine ssh <machine> <command>
 ```
 
+#### Alternate Way - Log into Pi Swarm
+Machines are:
+* pi1
+* pi2
+* pi3
+* pi4
+
+[Setup details are here](https://github.com/shailensukul/pi-cluster)
+
+```
+ssh dockeradmin@pi-1
+```
+
 ##### Run this on the manager node/vm
 
 ```
