@@ -8,4 +8,4 @@
 + Summarize​​ how​ ​an ​​application​​ is​ ​composed​​ of ​​layers ​​and ​​where​ ​those​​ layers​​ reside​ ​on the ​​filesystem
 + Describe​​ how​​ volumes​ ​are ​​used ​​with ​​Docker ​​for ​​persistent​​ storage
 + Identify​​ the​​ steps ​​you ​​would ​​take ​​to ​​clean​​up ​​unused ​​images​​ on ​​a ​​filesystem,​​ also on DTR
-+ Demonstrate​​ how​​s to rage​ ​can​​ be ​​used ​​across​ ​cluster​ ​nodes
++ Demonstrate​​ how​​s to storage​ ​can​​ be ​​used ​​across​ ​cluster​ ​nodes
