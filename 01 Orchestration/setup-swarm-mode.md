@@ -62,10 +62,10 @@ docker-machine ssh <machine> <command>
 
 #### Alternate Way - Log into Pi Swarm
 Machines are:
-* pi1
-* pi2
-* pi3
-* pi4
+* pi-1
+* pi-2
+* pi-3
+* pi-4
 
 [Setup details are here](https://github.com/shailensukul/pi-cluster)
 
@@ -108,6 +108,10 @@ where ip is manager ip
 $ docker swarm join --token <Worker token> 192.168.86.25:2377
 
 ## Setup Swarm Mode
+
+## What is Docker Stack
+* Swarm - is a cluster of machines running Docker
+* Stack - is a group of interrelated services that share dependencies, and can be orchestrated and scaled together
 
 #### Deploy the app on the swarm manager
 
