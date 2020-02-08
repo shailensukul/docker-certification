@@ -2,11 +2,11 @@
 
 | Section | 
 | --- |
-| [Orchestration](/01 Orchestration/ReadMe.md) |
-| [Image Creation, Management and Registry](/02 Image-Creation-Management-Registry/ReadMe.md) |
-| [Installation and Configuration](/03 Installation-Configuration/ReadMe.md) |
-| [Networking](/04 Networking/ReadMe.md) |
-| [Security](/05 Security/ReadMe.md) |
+| [Orchestration](/01%20Orchestration/ReadMe.md) |
+| [Image Creation, Management and Registry](/02%20Image-Creation-Management-Registry/ReadMe.md) |
+| [Installation and Configuration](/03%20Installation-Configuration/ReadMe.md) |
+| [Networking](/04%20Networking/ReadMe.md) |
+| [Security](/05%20Security/ReadMe.md) |
 | [Storage and Volumes](/06 Storage-Volumes/ReadMe.md) |
 
 
