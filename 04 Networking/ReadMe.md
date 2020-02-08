@@ -1,12 +1,6 @@
-# Networking (15%)
+# 04 - Networking (15%)
 
 [Back](../ReadMe.md)
-
-
-<details>
-  <summary>
-    Click to expand content summary:
-  </summary>
   
  + Create​​ a ​​Docker​​ bridge ​​network ​​for ​​a ​​developer​​ to ​​use ​​for​ ​their ​​containers
 + Troubleshoot​​ container​ ​and ​​engine​ ​logs ​​to ​​understand ​​a ​​connectivity ​​issue​​ between containers
@@ -19,4 +13,3 @@
 + Understand ​​and ​​describe​ ​the​​ types​​ of ​​traffic ​​that ​​flow​ ​between ​​the ​​Docker​​ engine, registry, ​​and ​​UCP ​​controllers
 + Deploy ​​a ​​service​ ​on ​​a ​​Docker​​ overlay​​ network
 + Describe​​ the ​​difference ​​between ​​"host"​​ and ​​"ingress" ​​port​​ publishing​ ​mode
- </details>

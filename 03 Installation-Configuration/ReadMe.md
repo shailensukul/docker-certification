@@ -1,11 +1,6 @@
-# Installation and Configuration (15%)
+# 03 - Installation and Configuration (15%)
 
 [Back](../ReadMe.md)
-
-<details>
-  <summary>
-    Click to expand content summary:
-  </summary>
   
 + Demonstrate​​ the​ ​ability​​ to​ ​upgrade ​​the ​​Docker ​​engine
 + Complete​​ setup ​​of ​​repo,​​select ​​a ​​storage​​driver, ​​and ​​complete​​ installation​​ of ​​Docker engine ​​on ​​multiple ​​platforms
@@ -19,4 +14,3 @@
 + Consistently​​ repeat​​ steps ​​to ​​deploy ​​Docker ​​​​engine, ​​[UCP](./ucp.md), ​​and [​​DTR](./dtr.md) ​​on ​​AWS ​​and ​​on premises ​​in ​​an​ ​HA ​​config
 + Complete​​ configuration ​​of ​​backups ​​for ​​UCP ​​and ​​DTR
 + Configure​​ the​ ​Docker​​ daemon​​ to​​ start​​ on​ ​boot
- </details>

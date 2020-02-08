@@ -1,9 +1,6 @@
-# Orchestration (25%)
+# 01 - Orchestration (25%)
 
 [Back](../ReadMe.md)
-
-<details>
-<summary>Click to expand content summary: </summary>
 
 + [Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster,​ ​with​ ​managers​ ​and​ ​worker​ ​nodes](./setup-swarm-mode.md) 
 + [State​ ​the​ ​differences​ ​between​ ​running​ ​a​ ​container​ ​vs​ ​running​ ​a​ ​service](./container-vs-service.md))
@@ -21,5 +18,4 @@
 + Sketch​ ​how​ ​a​ ​Dockerized​ ​application​ ​communicates​ ​with​ ​legacy​ ​systems 
 + Paraphrase ​the​ ​importance​ ​of​ ​quorum​ ​in​ ​a​ ​swarm​ ​cluster 
 + Demonstrate​ ​the​ ​usage​ ​of​ ​templates​ ​with​ ​"docker​ ​service​ ​create" 
-</details>
 

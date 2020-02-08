@@ -1,12 +1,7 @@
-# Image Creation, Management and Registry (20%)
+# 02 - Image Creation, Management and Registry (20%)
 
 [Back](../ReadMe.md)
 
-<details>
-  <summary>
-    Click to expand content summary:
-    </summary>
-  
 + Describe ​​Dockerfile ​​options​​ [add, copy, volumes, expose, entrypoint, etc)
 + Show​ ​the ​​main ​​parts ​​of ​​a ​​Dockerfile
 + Give​ ​examples​ ​on ​​how ​​to ​​create an efficient image via a Dockerfile
@@ -28,4 +23,3 @@
 + Pull​​ an ​​image ​​from ​​a ​​registry
 + Describe ​​how ​​image ​​deletion​ ​works
 + Delete ​​an ​​image​​ from ​​a ​​registry
-  </details>

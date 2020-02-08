@@ -1,9 +1,6 @@
-# Security (15%)
+# 05 - Security (15%)
 
 [Back](../ReadMe.md)
-
-<details>
-  <summary>Click to expand content:</summary>  
   
 + Describe​ ​the ​​process​ ​of ​​signing​ ​an ​​image
 + Demonstrate ​​that​ ​an ​​image​ ​passes​​ a ​​security​ ​scan
@@ -17,6 +14,4 @@
 + Identity​​ roles
 + Describe ​​the​​ difference​​ between​ ​UCP​ ​workers​ ​and ​​managers
 + Describe ​​process ​​to ​​use ​​external ​​certificates ​​with ​​UCP ​​and ​​DTR
-
-<details>
 

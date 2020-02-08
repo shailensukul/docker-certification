@@ -1,9 +1,6 @@
-# Storage and Volumes (10%)
+# 06 - Storage and Volumes (10%)
 
 [Back](../ReadMe.md)
-
-<details>
-  <summary>Click to expand content:</summary>
   
 + State​ ​which​ ​graph​​ driver​​ should ​​be ​​used​​ on ​​which ​​OS
 + Demonstrate​​ how​​ to​ ​configure ​​device mapper
@@ -12,4 +9,3 @@
 + Describe​​ how​​ volumes​ ​are ​​used ​​with ​​Docker ​​for ​​persistent​​ storage
 + Identify​​ the​​ steps ​​you ​​would ​​take ​​to ​​clean​​up ​​unused ​​images​​ on ​​a ​​filesystem,​​ also on DTR
 + Demonstrate​​ how​​s to rage​ ​can​​ be ​​used ​​across​ ​cluster​ ​nodes
- </details>
