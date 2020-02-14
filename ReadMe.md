@@ -7,7 +7,7 @@
 | [03 Installation and Configuration](/03%20Installation-Configuration/ReadMe.md) |
 | [04 Networking](/04%20Networking/ReadMe.md) |
 | [05 Security](/05%20Security/ReadMe.md) |
-| [Storage and Volumes](/06 Storage-Volumes/ReadMe.md) |
+| [06 Storage and Volumes](/06%20Storage-Volumes/ReadMe.md) |
 
 
 # Docker Certified Associate
