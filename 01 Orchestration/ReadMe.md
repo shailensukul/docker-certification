@@ -10,8 +10,8 @@
 + [Convert​ ​an​ ​application​ ​deployment​ ​into​ ​a​ ​stack​ ​file​ ​using​ ​a​ ​YAML​ ​compose​ ​file​ ​with "docker​ ​stack​ ​deploy"](./docker-stack-deploy.md) 
 + [Manipulate​ ​a​ ​running​ ​stack​ ​of​ ​services](./manipulate-stack-services.md)
 + [Increase​ ​#​ ​of​ ​replicas](./docker-service-scale.md)
-+ Add​ [​networks](./networking.md),​ ​publish​ ​ports 
-+ Mount​ ​volumes 
++ Add​ [​networks](./networking.md),​ [​publish​ ​ports]()./network-overview.md) 
++ [Mount​ ​volumes](./volumes.md)
 + Illustrate​ ​running​ ​a​ ​replicated​ ​vs​ ​global​ ​service 
 + Identify​ ​the​ ​steps​ ​needed​ ​to​ ​troubleshoot​ ​a​ ​service​ ​not​ ​deploying 
 + Apply​ ​node​ ​labels​ ​to​ ​demonstrate​ ​placement​ ​of​ ​tasks 
