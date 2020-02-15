@@ -8,9 +8,9 @@
 + [Extend​ ​the​ ​instructions​ ​to​ ​run​ ​individual​ ​containers​ ​into​ ​running​ ​services​ ​under​ ​swarm](./deploy-service-to-swarm.md) 
 + [Interpret​ ​the​ ​output​ ​of​ ​"docker​ ​inspect"​ ​commands](./inspect-service.md)
 + [Convert​ ​an​ ​application​ ​deployment​ ​into​ ​a​ ​stack​ ​file​ ​using​ ​a​ ​YAML​ ​compose​ ​file​ ​with "docker​ ​stack​ ​deploy"](./docker-stack-deploy.md) 
-+ Manipulate​ ​a​ ​running​ ​stack​ ​of​ ​services 
-+ Increase​ ​#​ ​of​ ​replicas 
-]+ Add​ ​networks,​ ​publish​ ​ports 
++ [Manipulate​ ​a​ ​running​ ​stack​ ​of​ ​services](./manipulate-stack-services.md)
++ [Increase​ ​#​ ​of​ ​replicas](./docker-service-scale.md)
++ Add​ [​networks](./networking.md),​ ​publish​ ​ports 
 + Mount​ ​volumes 
 + Illustrate​ ​running​ ​a​ ​replicated​ ​vs​ ​global​ ​service 
 + Identify​ ​the​ ​steps​ ​needed​ ​to​ ​troubleshoot​ ​a​ ​service​ ​not​ ​deploying 

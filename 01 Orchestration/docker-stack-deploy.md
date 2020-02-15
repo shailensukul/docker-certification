@@ -53,26 +53,3 @@ Kubernetes config file
 --orchestrator
 ```
 Orchestrator to use (swarm|kubernetes|all)
-
-
-## Related Commands
-
-List stacks
-```
-docker stack ls
-```
-
-List the tasks in the stack
-```
-docker stack ps
-```
-
-Remove one or more stacks
-```
-docker stack rm
-```
-
-List the services in the stack
-```
-docker stack services
-```
