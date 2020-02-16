@@ -12,8 +12,8 @@
 + [Increase​ ​#​ ​of​ ​replicas](./docker-service-scale.md)
 + Add​ [​networks](./networking.md),​ [​publish​ ​ports]()./network-overview.md) 
 + [Mount​ ​volumes](./volumes.md)
-+ Illustrate​ ​running​ ​a​ ​replicated​ ​vs​ ​global​ ​service 
-+ Identify​ ​the​ ​steps​ ​needed​ ​to​ ​troubleshoot​ ​a​ ​service​ ​not​ ​deploying 
++ [Illustrate​ ​running​ ​a​ ​replicated​ ​vs​ ​global​ ​service](./replicated-vs-global-service.md) 
++ [Identify​ ​the​ ​steps​ ​needed​ ​to​ ​troubleshoot​ ​a​ ​service​ ​not​ ​deploying](./swarm-troubleshooting.md) 
 + Apply​ ​node​ ​labels​ ​to​ ​demonstrate​ ​placement​ ​of​ ​tasks 
 + Sketch​ ​how​ ​a​ ​Dockerized​ ​application​ ​communicates​ ​with​ ​legacy​ ​systems 
 + Paraphrase ​the​ ​importance​ ​of​ ​quorum​ ​in​ ​a​ ​swarm​ ​cluster 
