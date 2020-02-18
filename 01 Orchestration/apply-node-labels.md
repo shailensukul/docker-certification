@@ -36,4 +36,4 @@ For example, to add a type label to identify nodes where the scheduler should de
 docker node update --label-add type=queue worker1
 ```
 
-The labels you set for nodes using docker node update apply only to the node entity within the swarm. Do not confuse them with the docker daemon labels for dockerd.
+The labels you set for nodes using docker node update apply only to the node entity within the swarm. Do not confuse them with the docker daemon labels for [dockerd](https://docs.docker.com/engine/userguide/labels-custom-metadata/#daemon-labels).
