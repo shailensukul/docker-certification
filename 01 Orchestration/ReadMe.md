@@ -15,7 +15,7 @@
 + [Illustrate​ ​running​ ​a​ ​replicated​ ​vs​ ​global​ ​service](./replicated-vs-global-service.md) 
 + [Identify​ ​the​ ​steps​ ​needed​ ​to​ ​troubleshoot​ ​a​ ​service​ ​not​ ​deploying](./swarm-troubleshooting.md) 
 + [Apply​ ​node​ ​labels​ ​to​ ​demonstrate​ ​placement​ ​of​ ​tasks](./apply-node-labels.md)
-+ Sketch​ ​how​ ​a​ ​Dockerized​ ​application​ ​communicates​ ​with​ ​legacy​ ​systems 
++ [Sketch​ ​how​ ​a​ ​Dockerized​ ​application​ ​communicates​ ​with​ ​legacy​ ​systems](./docker-application-sketch.md) 
 + Paraphrase ​the​ ​importance​ ​of​ ​quorum​ ​in​ ​a​ ​swarm​ ​cluster 
 + Demonstrate​ ​the​ ​usage​ ​of​ ​templates​ ​with​ ​"docker​ ​service​ ​create" 
 
