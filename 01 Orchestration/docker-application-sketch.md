@@ -29,8 +29,10 @@ By default, a container inherits the DNS settings of the Docker daemon, includin
 
 | Flag | Description |
 | --- | --- |
-| --dns | The IP address of a DNS server. To specify multiple DNS servers, use multiple --dns flags. If the container cannot reach any of the IP addresses you specify, Google’s  public DNS server 8.8.8.8 is added, so that your container can resolve internet domains. |
-| --dns-search | A DNS search domain to search non-fully-qualified hostnames. To specify multiple DNS search prefixes, use multiple --dns-search flags. |
-| --dns-opt | A key-value pair representing a DNS option and its value. See your operating system’s documentation for resolv.conf for valid options. |
-| --hostname | The hostname a container uses for itself. Defaults to the container’s ID if not specified.
+| `--dns` | The IP address of a DNS server. To specify multiple DNS servers, use multiple `--dns` flags. If the container cannot reach any of the IP addresses you specify, Google’s  public DNS server `8.8.8.8` is added, so that your container can resolve internet domains. |
+| `--dns-search` | A DNS search domain to search non-fully-qualified hostnames. To specify multiple DNS search prefixes, use multiple `--dns-search` flags. |
+| `--dns-opt` | A key-value pair representing a DNS option and its value. See your operating system’s documentation for resolv.conf for valid options. |
+| `--hostname` | The hostname a container uses for itself. Defaults to the container’s ID if not specified.
 
+## Proxy server
+If your container needs to use a proxy server, see [Use a proxy server](https://docs.docker.com/network/proxy/).
