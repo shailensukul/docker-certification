@@ -3,8 +3,8 @@
 [Back](../ReadMe.md)
 
 + [Describe ​​Dockerfile ​​options​​ (add, copy, volumes, expose, entrypoint, etc)](./describe-dockerfile-options.md)
-+ Show​ ​the ​​main ​​parts ​​of ​​a ​​Dockerfile
-+ Give​ ​examples​ ​on ​​how ​​to ​​create an efficient image via a Dockerfile
++ [Show​ ​the ​​main ​​parts ​​of ​​a ​​Dockerfile](./dockerfile-main-parts.md)
++ [Give​ ​examples​ ​on ​​how ​​to ​​create an efficient image via a Dockerfile](./dockerfile-efficient-image.md)
 + Use ​​CLI ​​commands ​​such ​​as ​​list, ​​delete, ​​prune,​ ​rmi,​​ etc ​​to ​​manage ​​images
 + Inspect ​​images ​​and ​​report​​ specific​​ attributes ​​using ​​filter​​and ​​format
 + Demonstrate​​ tagging ​​an ​​image
