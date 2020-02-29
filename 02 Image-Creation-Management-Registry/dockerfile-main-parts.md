@@ -1,4 +1,4 @@
-# Show​ ​the ​​main ​​parts ​​of ​​a ​​Dockerfile
+# Image Creation, Management and Registry > Show​ ​the ​​main ​​parts ​​of ​​a ​​Dockerfile
 
 [Back](./ReadMe.md)
 

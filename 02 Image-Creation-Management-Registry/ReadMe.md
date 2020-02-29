@@ -6,8 +6,8 @@
 + [Show​ ​the ​​main ​​parts ​​of ​​a ​​Dockerfile](./dockerfile-main-parts.md)
 + [Give​ ​examples​ ​on ​​how ​​to ​​create an efficient image via a Dockerfile](./dockerfile-efficient-image.md)
 + [Use ​​CLI ​​commands ​​such ​​as ​​list, ​​delete, ​​prune,​ ​rmi,​​ etc ​​to ​​manage ​​images](./cli-commands-manage-images.md)
-+ Inspect ​​images ​​and ​​report​​ specific​​ attributes ​​using ​​filter​​and ​​format
-+ Demonstrate​​ tagging ​​an ​​image
++ [Inspect ​​images ​​and ​​report​​ specific​​ attributes ​​using ​​filter ​​and ​​format](./filter-and-format.md)
++ [Demonstrate​​ tagging ​​an ​​image](./tagging-image.md)
 + Utilize​​ a ​​registry ​​to ​​store​ ​an ​​image
 + Display​​ layers​ ​of ​a​ ​Docker ​​image
 + Apply​ ​a ​​file ​​to ​​create ​​a ​​Docker ​​image

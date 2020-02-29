@@ -1,4 +1,4 @@
-# Image Creation, Management and Registry > > Image Creation, Management and Registry
+# Image Creation, Management and Registry > Image Creation, Management and Registry
 
 [Back](./ReadMe.md)
 
