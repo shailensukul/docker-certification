@@ -14,7 +14,7 @@
 + [Modify​​ an ​​image ​​to ​​a ​​single ​​layer](./modify-image-single-layer.md)
 + [Describe​ ​how ​​image​​ layers​​ work](./how-image-layers-work.md)
 + [Deploy​​ a ​​registry​ ​(not ​​architect)](./deploy-a-registry.md)
-+ Configure​​ a ​​registry
++ [Configure​​ a ​​registry](./configure-registry.md)
 + Log​​in to ​​a ​​registry
 + Utilize​​ search​ ​in ​​a ​​registry
 + Tag​ ​an ​​image
