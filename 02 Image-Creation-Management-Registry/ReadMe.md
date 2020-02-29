@@ -9,11 +9,11 @@
 + [Inspect ​​images ​​and ​​report​​ specific​​ attributes ​​using ​​filter ​​and ​​format](./filter-and-format.md)
 + [Demonstrate​​ tagging ​​an ​​image](./tagging-image.md)
 + [Utilize​​ a ​​registry ​​to ​​store​ ​an ​​image](./registry-to-store-image.md)
-+ Display​​ layers​ ​of ​a​ ​Docker ​​image
-+ Apply​ ​a ​​file ​​to ​​create ​​a ​​Docker ​​image
-+ Modify​​ an ​​image ​​to ​​a ​​single ​​layer
-+ Describe​ ​how ​​image​​ layers​​ work
-+ Deploy​​ a ​​registry​ ​(not ​​architect)
++ [Display​​ layers​ ​of ​a​ ​Docker ​​image](./layers-of-docker-image.md)
++ [Apply​ ​a ​​file ​​to ​​create ​​a ​​Docker ​​image](./apply-file-docker-image.md)
++ [Modify​​ an ​​image ​​to ​​a ​​single ​​layer](./modify-image-single-layer.md)
++ [Describe​ ​how ​​image​​ layers​​ work](./how-image-layers-work.md)
++ [Deploy​​ a ​​registry​ ​(not ​​architect)](./deploy-a-registry.md)
 + Configure​​ a ​​registry
 + Log​​in to ​​a ​​registry
 + Utilize​​ search​ ​in ​​a ​​registry
