@@ -8,7 +8,7 @@
 + [Use ​​CLI ​​commands ​​such ​​as ​​list, ​​delete, ​​prune,​ ​rmi,​​ etc ​​to ​​manage ​​images](./cli-commands-manage-images.md)
 + [Inspect ​​images ​​and ​​report​​ specific​​ attributes ​​using ​​filter ​​and ​​format](./filter-and-format.md)
 + [Demonstrate​​ tagging ​​an ​​image](./tagging-image.md)
-+ Utilize​​ a ​​registry ​​to ​​store​ ​an ​​image
++ [Utilize​​ a ​​registry ​​to ​​store​ ​an ​​image](./registry-to-store-image.md)
 + Display​​ layers​ ​of ​a​ ​Docker ​​image
 + Apply​ ​a ​​file ​​to ​​create ​​a ​​Docker ​​image
 + Modify​​ an ​​image ​​to ​​a ​​single ​​layer
