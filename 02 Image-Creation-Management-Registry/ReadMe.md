@@ -15,11 +15,11 @@
 + [Describe​ ​how ​​image​​ layers​​ work](./how-image-layers-work.md)
 + [Deploy​​ a ​​registry​ ​(not ​​architect)](./deploy-a-registry.md)
 + [Configure​​ a ​​registry](./configure-registry.md)
-+ Log​​in to ​​a ​​registry
-+ Utilize​​ search​ ​in ​​a ​​registry
-+ Tag​ ​an ​​image
-+ Push ​​an ​​image ​​to ​​a ​​registry
-+ Sign​ ​an ​​image ​​in ​​a ​​registry
-+ Pull​​ an ​​image ​​from ​​a ​​registry
-+ Describe ​​how ​​image ​​deletion​ ​works
-+ Delete ​​an ​​image​​ from ​​a ​​registry
++ [Log​​in to ​​a ​​registry](./login-to-registry.md)
++ [Utilize​​ search​ ​in ​​a ​​registry](./utilize-search-in-registry.md)
++ [Tag​ ​an ​​image](./tag-an-image.md)
++ [Push ​​an ​​image ​​to ​​a ​​registry](./push-image-to-registry.md)
++ [Sign​ ​an ​​image ​​in ​​a ​​registry](./sign-image-in-registry.md)
++ [Pull​​ an ​​image ​​from ​​a ​​registry](./pull-image-from-registry.md)
++ Describe ​​how ​​image ​​deletion​ ​works. [Pruning](./pruning.md) and [removing](./removing.md)
++ [Delete ​​an ​​image​​ from ​​a ​​registry](./delete-image-from-registry.md)
