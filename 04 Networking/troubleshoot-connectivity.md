@@ -7,16 +7,6 @@ Troubleshooting Container Networking
 
 Ref: [https://success.docker.com/article/troubleshooting-container-networking](./https://success.docker.com/article/troubleshooting-container-networking)
 
-### Article ID: KB000135
-
-EED4MD4W
-
-LINUXMACWINDOWSWINDOWS SERVERZ SYSTEMS
-
-DAEMONNETWORKINGTROUBLESHOOTINGMANAGEMENT
-
-EE-17.06.2-EE-5UCP-2.2.3DTR-2.3.4
-
 #### Recommended Articles
 
 -   [Troubleshooting Container Networking](https://success.docker.com/article/troubleshooting-container-networking)
