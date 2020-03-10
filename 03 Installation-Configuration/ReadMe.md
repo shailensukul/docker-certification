@@ -2,8 +2,8 @@
 
 [Back](../ReadMe.md)
   
-+ Demonstrate​​ the​ ​ability​​ to​ ​upgrade ​​the ​​Docker ​​engine
-+ Complete​​ setup ​​of ​​repo,​​select ​​a ​​storage​​ driver, ​​and ​​complete​​ installation​​ of ​​Docker engine ​​on ​​multiple ​​platforms
++ [Demonstrate​​ the​ ​ability​​ to​ ​upgrade ​​the ​​Docker ​​engine](./upgrade-docker-engine.md)
++ [Complete​​ setup ​​of ​​repo,​​select ​​a ​​storage​​ driver, ​​and ​​complete​​ installation​​ of ​​Docker engine ​​on ​​multiple ​​platforms](/.repo-storage-installation.md)
 + [Configure ​​logging ​​drivers ​​(splunk,​ ​journald, ​​etc)](./Logging.md)
 + [Setup ​​swarm,​​ configure ​​managers,​ ​add ​​nodes, ​​and ​​setup ​​backup ​​schedule](./setup-swarm.md))
 + Create​​ and ​​manager ​​user​ ​and ​​teams
