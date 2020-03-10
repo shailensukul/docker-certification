@@ -1,4 +1,4 @@
-# Networking > Create​​ a ​​Docker​​ bridge ​​network ​​for ​​a ​​developer​​ to ​​use ​​for​ ​their ​​containers
+# Networking > Troubleshoot​​ container​ ​and ​​engine​ ​logs ​​to ​​understand ​​a ​​connectivity ​​issue​​ between containers
 
 [Back](./ReadMe.md)
 
