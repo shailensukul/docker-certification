@@ -1,6 +1,9 @@
-# [Docker Trusted Registry](https://docs.docker.com/ee/dtr/)
+# Installation-Configuration > Consistently​​ repeat​​ steps ​​to ​​deploy ​​Docker ​​​​engine, ​​UCP, ​​and ​​DTR and Docker ​​on ​​AWS ​​and ​​on premises ​​in ​​an​ ​HA ​​config
 
 [Back](./ReadMe.md)
+
+
+# [Docker Trusted Registry](https://docs.docker.com/ee/dtr/)
 
 Docker Trusted Registry (DTR) is a containerized application that runs on a swarm managed by the Universal Control Plane (UCP). It can be installed on-premises or on a cloud infrastructure.
 
