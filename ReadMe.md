@@ -34,6 +34,12 @@ An image is a lightweight, stand-alone, executable package that includes everyth
 
 A container is a runtime instance of an image—what the image becomes in memory when actually executed. It runs completely isolated from the host environment by default, only accessing host files and ports if configured to do so.
 
+# VS Code on Headless Pi
+
+[Edit files on Pi from PC](https://www.hanselman.com/blog/VisualStudioCodeRemoteDevelopmentOverSSHToARaspberryPiIsButter.aspx)
+
+
+
 # Digital Ocean
 
 * Sign up for a free trial account at (Digital Ocean)[https://cloud.digitalocean.com]
