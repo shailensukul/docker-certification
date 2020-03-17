@@ -38,7 +38,12 @@ A container is a runtime instance of an image—what the image becomes in memory
 
 [Edit files on Pi from PC](https://www.hanselman.com/blog/VisualStudioCodeRemoteDevelopmentOverSSHToARaspberryPiIsButter.aspx)
 
+# Troubleshooting
 
+* When getting EACCESS permission denied, saving files with Visual Studio Code on host
+```
+sudo chown -R dockeradmin /home/dockeradmin
+```
 
 # Digital Ocean
 
