@@ -1,4 +1,4 @@
-# Orchestration > State ​​the ​​differences ​​between​​ an image and a container
+# Orchestration > Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster,​ ​with​ ​managers​ ​and​ ​worker​ ​nodes
 
 [Back](./ReadMe.md)
 
