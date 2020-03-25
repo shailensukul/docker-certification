@@ -1,0 +1,37 @@
+version: "3"
+services:
+  web:
+    # replace username/repo:tag with your name and image details
+    image: shailensukul/mvcapp:1.0.0.0
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+    ports:
+      - "80:80"
+    networks:
+    - webnet
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - "/home:/data"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    command: redis-server --appendonly yes
+    networks:
+        - webnet
+  visualizer:
+    image: alexellis2/visualizer-arm:latest
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      ports:
+        - "8080:8080"
+networks:
+      webnet:

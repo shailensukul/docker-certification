@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Caching.Distributed;
 using myapp.Models;
 
 namespace myapp.Controllers
@@ -12,19 +13,25 @@ namespace myapp.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IDistributedCache _distributedCache;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IDistributedCache distributedCache)
         {
             _logger = logger;
+            _distributedCache = distributedCache;
         }
 
         public IActionResult Index()
         {
+            var counter = int.Parse(_distributedCache.GetString("counter") ?? "0");
+            counter++;
+            _distributedCache.SetString("counter", counter.ToString());
+
             return View(new HomeControllerViewModel
             {
-                HostName = "Hostname",
+                HostName = this.Request.Host.Host,
                 Name = "Shailen",
-                Visits = 20
+                Visits = counter
             });
         }
 
