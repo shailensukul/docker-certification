@@ -1,37 +1,45 @@
-version: "3"
+version: "3.7"
 services:
   web:
     # replace username/repo:tag with your name and image details
-    image: shailensukul/mvcapp:1.0.0.0
+    image: shailensukul/pi-mvcapp:1.0.0.1
     deploy:
+      placement:
+        constraints: [node.role == manager]     
       replicas: 1
       restart_policy:
         condition: on-failure
-      resources:
-        limits:
-          cpus: "0.1"
-          memory: 50M
     ports:
       - "80:80"
-    networks:
-    - webnet
+    #network_mode: host
+    #networks:
+    #  - webnet
   redis:
-    image: redis:latest
+    image: redis
     ports:
-      - "6379:6379"
+      - "0.0.0.0:6379:6379"
     volumes:
-      - "/home:/data"
+      - "/home/redis/data:/data"
     deploy:
       placement:
         constraints: [node.role == manager]
-    command: redis-server --appendonly yes
-    networks:
-        - webnet
+      restart_policy:
+        condition: on-failure
+    command: redis-server --appendonly yes --maxmemory 512mb --tcp-backlog 128
+    #network_mode: host
+    #networks:
+    #  - webnet
   visualizer:
-    image: alexellis2/visualizer-arm:latest
+    image: dockersamples/visualizer:stable
+    ports:
+      - "8080:8080"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
-      ports:
-        - "8080:8080"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    #network_mode: "host"
+    networks:
+      - webnet
 networks:
       webnet:

@@ -42,8 +42,46 @@ A container is a runtime instance of an image—what the image becomes in memory
 
 * When getting EACCESS permission denied, saving files with Visual Studio Code on host
 ```
-sudo chown -R dockeradmin /home/dockeradmin
+sudo chown -vhR dockeradmin /home/dockeradmin
 ```
+
+* SSH from VSCode is repeatedly failing:
+
+Enable root login on the pi so you can run commands without sudo
+
+Login, and edit this file: `sudo nano /etc/ssh/sshd_config`
+Find this line: P`ermitRootLogin without-password`
+Edit: `PermitRootLogin yes`
+Close and save file
+reboot or restart sshd service using: `/etc/init.d/ssh restart`
+Set a root password if there isn't one already: `sudo passwd root`
+
+For this message when service starts: 
+```
+NanoCPUs can not be set, as your kernel does not support CPU cfs period/quota or the cgroup is not mounted
+```
+
+This is because you cannot control cpu limits on a Pi.
+Remvove this from the docker compose file:
+```
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+```
+
+Ref: https://github.com/microsoft/vscode/issues/48659
+C:\Users\shail\.vscode\extensions\ms-vscode-remote.remote-ssh-0.50.1\out
+
+I did some more experimenting and I've found a way that works. -o RemoteCommand=none is not the only thing in this extension that prevents VS Code from establishing a working ssh session after calling sudo -u newuser -i, we also need to remove bash so that VS Code does not start an additional shell session on the remote host.
+
+Here's a HOWTO:
+
+make sure that sudo -u newuser -i works in a regular ssh session without requesting a password
+remove "-o RemoteCommand=none" and "bash" from extension.js like so
+sed -i s/"-o RemoteCommand=none"/""/ ~/.vscode/extensions/ms-vscode-remote.remote-ssh-*/out/extension.js
+sed -i s/"bash"/""/ ~/.vscode/extensions/ms-vscode-remote.remote-ssh-*/out/extension.js
+
 
 # Digital Ocean
 
