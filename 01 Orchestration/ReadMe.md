@@ -3,7 +3,7 @@
 [Back](../ReadMe.md)
 
 + [Complete​ ​the​ ​setup​ ​of​ ​a​ ​swarm​ ​mode​ ​cluster,​ ​with​ ​managers​ ​and​ ​worker​ ​nodes](./setup-swarm-mode.md) > [Deploy Stack](./deploy-stack.md)
-+ [State​ ​the​ ​differences​ ​between​ ​running​ ​a​ ​container​ ​vs​ ​running​ ​a​ ​service](./container-vs-service.md)) > [Service](./Service.md)
++ [State​ ​the​ ​differences​ ​between​ ​running​ ​a​ ​container​ ​vs​ ​running​ ​a​ ​service](./container-vs-service.md)) > [Service](./service.md)
 + [Demonstrate​ ​steps​ ​to​ ​lock​ ​a​ ​swarm​ ​cluster](./lock-swarm-cluster.md) 
 + [Extend​ ​the​ ​instructions​ ​to​ ​run​ ​individual​ ​containers​ ​into​ ​running​ ​services​ ​under​ ​swarm](./deploy-service-to-swarm.md) 
 + [Interpret​ ​the​ ​output​ ​of​ ​"docker​ ​inspect"​ ​commands](./inspect-service.md)
