@@ -6,7 +6,7 @@ services:
     deploy:
       placement:
         constraints: [node.role == manager]     
-      replicas: 1
+      replicas: 5
       restart_policy:
         condition: on-failure
     ports:
@@ -30,7 +30,7 @@ services:
     #networks:
     #  - webnet
   visualizer:
-    image: dockersamples/visualizer:stable
+    image: alexellis2/visualizer-arm
     ports:
       - "8080:8080"
     volumes:
