@@ -3,17 +3,15 @@ services:
   web:
     # replace username/repo:tag with your name and image details
     image: shailensukul/pi-mvcapp:1.0.0.1
-    deploy:
-      placement:
-        constraints: [node.role == manager]     
-      replicas: 5
+    deploy:  
+      replicas: 10
       restart_policy:
         condition: on-failure
     ports:
       - "80:80"
     #network_mode: host
-    #networks:
-    #  - webnet
+    networks:
+      - webnet
   redis:
     image: redis
     ports:
@@ -27,8 +25,8 @@ services:
         condition: on-failure
     command: redis-server --appendonly yes --maxmemory 512mb --tcp-backlog 128
     #network_mode: host
-    #networks:
-    #  - webnet
+    networks:
+      - webnet
   visualizer:
     image: alexellis2/visualizer-arm
     ports:
