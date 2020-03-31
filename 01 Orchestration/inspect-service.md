@@ -6,7 +6,7 @@
  docker service inspect --pretty helloworld
 ```
 
-It will return service info un json format, if the pretty flag is ommitted.
+It will return service info in json format, if the pretty flag is ommitted.
 
 ```
 docker service ps helloworld
