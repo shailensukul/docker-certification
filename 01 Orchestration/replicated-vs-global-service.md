@@ -33,3 +33,19 @@ $ docker service create\
   --mode global\
   alpine top
 ```
+
+
+## Docker Compose
+
+#### MODE
+
+Either `global` (exactly one container per swarm node) or `replicated` (a specified number of containers). The default is `replicated`. (To learn more, see [Replicated and global services](https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/#replicated-and-global-services) in the [swarm](https://docs.docker.com/engine/swarm/) topics.)
+
+```
+version: "3.7"
+services:
+  worker:
+    image: dockersamples/examplevotingapp_worker
+    deploy:
+      mode: global
+```
