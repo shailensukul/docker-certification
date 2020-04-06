@@ -82,6 +82,22 @@ remove "-o RemoteCommand=none" and "bash" from extension.js like so
 sed -i s/"-o RemoteCommand=none"/""/ ~/.vscode/extensions/ms-vscode-remote.remote-ssh-*/out/extension.js
 sed -i s/"bash"/""/ ~/.vscode/extensions/ms-vscode-remote.remote-ssh-*/out/extension.js
 
+# JQ 
+JQ is a great tool for filtering through JSON output.
+
+For example:
+```
+docker service inspect mystack_web | jq -r '.[].CreatedAt'
+```
+
+Here is how to install it on the Raspberry Pi
+```
+cd /tmp
+wget https://github.com/stedolan/jq/releases/download/jq-1.5/jq-1.5.tar.gz
+tar xfvz jq-1.5.tar.gz
+cd jq-1.5
+./configure && make && sudo make install
+```
 
 # Digital Ocean
 
