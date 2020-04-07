@@ -1,17 +1,24 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
+ARG SDK_VERSION=3.1
+#ARG RUN_VERSION=3.1
+ARG RUN_VERSION=3.1.3-buster-slim-arm32v7
+
+FROM mcr.microsoft.com/dotnet/core/sdk:${SDK_VERSION} AS build-env
+ARG RUN_VERSION
 WORKDIR /app
 
 # Copy csproj and restore as distinct layers
 COPY *.csproj ./
 RUN dotnet restore
+RUN echo 'Packages restored'
 
 # Copy everything else and build
 COPY . ./
 RUN dotnet publish -c Release -o out
+RUN echo 'Code has been built'
 
 # Build runtime image
-#FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1.3-buster-slim-arm32v7
+RUN echo ${RUN_VERSION}}
+FROM mcr.microsoft.com/dotnet/core/aspnet:${RUN_VERSION} AS run
 
 WORKDIR /app
 COPY --from=build-env /app/out .

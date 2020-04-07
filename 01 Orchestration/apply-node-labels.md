@@ -81,4 +81,4 @@ Child commands[](https://docs.docker.com/engine/reference/commandline/node/#chil
 | [docker node promote](https://docs.docker.com/engine/reference/commandline/node_promote/) | Promote one or more nodes to manager in the swarm |
 | [docker node ps](https://docs.docker.com/engine/reference/commandline/node_ps/) | List tasks running on one or more nodes, defaults to current node |
 | [docker node rm](https://docs.docker.com/engine/reference/commandline/node_rm/) | Remove one or more nodes from the swarm |
-| [docker node update](https://docs.docker.com/engine/reference/commandline/node_update/) | Update a nod |
+| [docker node update](https://docs.docker.com/engine/reference/commandline/node_update/) | Update a node |
