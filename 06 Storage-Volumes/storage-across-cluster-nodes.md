@@ -1,4 +1,4 @@
-# Storage and Volumes > Demonstrate​​ how​​ to storage​ ​can​​ be ​​used ​​across​ ​cluster​ ​nodes
+# Storage and Volumes > Demonstrate​​ how​​ storage​ ​can​​ be ​​used ​​across​ ​cluster​ ​nodes
 
 [Back](./ReadMe.md)
 
